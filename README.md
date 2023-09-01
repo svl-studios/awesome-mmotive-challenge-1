@@ -1,2 +1,2 @@
-# awesome-mmotive-challenge-1
-Awesome Motive Challenege #1
+# awesome-motive-challenge-1
+Awesome Motive Challenge #1
