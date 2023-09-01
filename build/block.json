@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "svl-studios/kev-awesome-motive",
+  "version": "1.0.0",
+  "title": "Kev's Awesome Motive Challenge",
+  "category": "widgets",
+  "icon": "editor-table",
+  "description": "Plugin showcasing the Awesome Motive challenge.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "kev-awesome-motive",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "colOne": {
+      "type": "boolean",
+      "default": true
+    },
+    "colTwo": {
+      "type": "boolean",
+      "default": true
+    },
+    "colThree": {
+      "type": "boolean",
+      "default": true
+    },
+    "colFour": {
+      "type": "boolean",
+      "default": true
+    },
+    "colFive": {
+      "type": "boolean",
+      "default": true
+    },
+    "table": {
+      "type": "object"
+    }
+  }
+}

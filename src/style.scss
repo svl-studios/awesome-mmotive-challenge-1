@@ -1,0 +1,159 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.kev-awesome-motive {
+	padding: 2px;
+
+	h2 {
+		text-transform:uppercase;
+	}
+
+	input[type='text'] {
+		font-family: Gilbert, sans-serif;
+		font-size: 64px;
+		color: inherit;
+		background: inherit;
+		border: 0;
+	}
+
+	.kev-heading {
+		text-align:center;
+	}
+
+	.wp-list-table {
+		&.striped > tbody > :nth-child(odd) {
+			background-color: #f6f7f7;
+		}
+
+		&.col-one-hide {
+			td:nth-child(1) {
+				display:none;
+			}
+		}
+
+		&.col-two-hide {
+			td:nth-child(2) {
+				display:none;
+			}
+		}
+
+		&.col-three-hide {
+			td:nth-child(3) {
+				display:none;
+			}
+		}
+
+		&.col-four-hide {
+			td:nth-child(4) {
+				display:none;
+			}
+		}
+
+		&.col-five-hide {
+			td:nth-child(5) {
+				display:none;
+			}
+		}
+	}
+}
+
+.widefat {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+
+	border-spacing: 0;
+	width: 100%;
+	clear: both;
+	margin: 0;
+
+	* {
+		word-wrap: break-word;
+	}
+
+	a,
+	button.button-link {
+		text-decoration: none;
+	}
+
+	td,
+	th {
+		padding: 8px 10px;
+	}
+
+	thead,
+	tfoot {
+		font-weight:500;
+	}
+
+	thead th,
+	thead td {
+		border-bottom: 1px solid #c3c4c7;
+	}
+
+	tfoot th,
+	tfoot td {
+		border-top: 1px solid #c3c4c7;
+		border-bottom: none;
+	}
+
+	.no-items td {
+		border-bottom-width: 0;
+	}
+
+	td {
+		vertical-align: top;
+	}
+
+	td,
+	td p,
+	td ol,
+	td ul {
+		font-size: 13px;
+		line-height: 1.5em;
+	}
+
+	th,
+	thead td,
+	tfoot td {
+		text-align: left;
+		line-height: 1.3em;
+		font-size: 14px;
+	}
+
+	.check-column {
+		width: 2.2em;
+		padding: 6px 0 25px;
+		vertical-align: top;
+	}
+
+	tbody th.check-column {
+		padding: 9px 0 22px;
+	}
+
+	thead td.check-column,
+	tfoot td.check-column {
+		padding-top: 4px;
+		vertical-align: middle;
+	}
+}
+
+.widefat th input,
+.updates-table td input,
+.widefat thead td input,
+.widefat tfoot td input {
+	margin: 0 0 0 8px;
+	padding: 0;
+	vertical-align: text-top;
+}
+
+.widefat thead td.check-column,
+.widefat tbody th.check-column,
+.updates-table tbody td.check-column,
+.widefat tfoot td.check-column {
+	padding: 11px 0 0 3px;
+}
