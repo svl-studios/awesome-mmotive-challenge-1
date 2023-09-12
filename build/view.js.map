@@ -1,0 +1,1 @@
+{"version":3,"file":"view.js","mappings":";;;;;AAAA;AACAA,OAAO,CAACC,GAAG,CAAE,2DAA4D,CAAC;AAC1E,8B","sources":["webpack://kevs-awesome-motive-challenge/./src/view.js"],"sourcesContent":["/* eslint-disable no-console */\nconsole.log( 'I see you lookin\\' at me! (from kev-awesome-motive block)' );\n/* eslint-enable no-console */\n"],"names":["console","log"],"sourceRoot":""}
