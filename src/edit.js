@@ -39,7 +39,7 @@ export default function editTable( { attributes: { colOne, colTwo, colThree, col
 								'Hide the first column.', 'kev-awesome-motive'
 							)}
 							checked={!!colOne}
-							onChange={ ( colOne ) => setAttributes( { colOne: ! colOne } ) }
+							onChange={ () => setAttributes( { colOne: ! colOne } ) }
 						/>
 						<ToggleControl
 							__nextHasNoMarginBottom
@@ -47,7 +47,7 @@ export default function editTable( { attributes: { colOne, colTwo, colThree, col
 								'Hide the second column.', 'kev-awesome-motive'
 							)}
 							checked={!!colTwo}
-							onChange={ ( colTwo) => setAttributes( { colTwo: ! colTwo } )}
+							onChange={ () => setAttributes( { colTwo: ! colTwo } )}
 						/>
 						<ToggleControl
 							__nextHasNoMarginBottom
@@ -55,7 +55,7 @@ export default function editTable( { attributes: { colOne, colTwo, colThree, col
 								'Hide the third column.', 'kev-awesome-motive'
 							)}
 							checked={!!colThree}
-							onChange={ ( colThree) => setAttributes( { colThree: ! colThree } )}
+							onChange={ () => setAttributes( { colThree: ! colThree } )}
 						/>
 						<ToggleControl
 							__nextHasNoMarginBottom
@@ -63,7 +63,7 @@ export default function editTable( { attributes: { colOne, colTwo, colThree, col
 								'Hide the fourth column.', 'kev-awesome-motive'
 							)}
 							checked={!!colFour}
-							onChange={ ( colFour ) => setAttributes( { colFour: ! colFour} )}
+							onChange={ () => setAttributes( { colFour: ! colFour} )}
 						/>
 						<ToggleControl
 							__nextHasNoMarginBottom
@@ -71,7 +71,7 @@ export default function editTable( { attributes: { colOne, colTwo, colThree, col
 								'Hide the fifth column.', 'kev-awesome-motive'
 							)}
 							checked={!!colFive}
-							onChange={ ( colFive ) => setAttributes( { colFive: ! colFive } )}
+							onChange={ () => setAttributes( { colFive: ! colFive } )}
 						/>
 					</PanelBody>
 				</InspectorControls>

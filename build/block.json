@@ -19,23 +19,23 @@
   "attributes": {
     "colOne": {
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "colTwo": {
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "colThree": {
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "colFour": {
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "colFive": {
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "table": {
       "type": "object"

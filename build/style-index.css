@@ -1,1 +1,128 @@
-.kev-awesome-motive{padding:2px}.kev-awesome-motive h2{text-transform:uppercase}.kev-awesome-motive input[type=text]{background:inherit;border:0;color:inherit;font-family:Gilbert,sans-serif;font-size:64px}.kev-awesome-motive .kev-heading{text-align:center}.kev-awesome-motive .wp-list-table.striped>tbody>:nth-child(odd){background-color:#f6f7f7}.kev-awesome-motive .wp-list-table.col-five-hide td:nth-child(5),.kev-awesome-motive .wp-list-table.col-four-hide td:nth-child(4),.kev-awesome-motive .wp-list-table.col-one-hide td:first-child,.kev-awesome-motive .wp-list-table.col-three-hide td:nth-child(3),.kev-awesome-motive .wp-list-table.col-two-hide td:nth-child(2){display:none}.widefat{background:#fff;border:1px solid #c3c4c7;border-spacing:0;box-shadow:0 1px 1px rgba(0,0,0,.04);clear:both;margin:0;width:100%}.widefat *{word-wrap:break-word}.widefat a,.widefat button.button-link{text-decoration:none}.widefat td,.widefat th{padding:8px 10px}.widefat tfoot,.widefat thead{font-weight:500}.widefat thead td,.widefat thead th{border-bottom:1px solid #c3c4c7}.widefat tfoot td,.widefat tfoot th{border-bottom:none;border-top:1px solid #c3c4c7}.widefat .no-items td{border-bottom-width:0}.widefat td{vertical-align:top}.widefat td,.widefat td ol,.widefat td p,.widefat td ul{font-size:13px;line-height:1.5em}.widefat tfoot td,.widefat th,.widefat thead td{font-size:14px;line-height:1.3em;text-align:left}.widefat .check-column{padding:6px 0 25px;vertical-align:top;width:2.2em}.widefat tbody th.check-column{padding:9px 0 22px}.widefat tfoot td.check-column,.widefat thead td.check-column{padding-top:4px;vertical-align:middle}.updates-table td input,.widefat tfoot td input,.widefat th input,.widefat thead td input{margin:0 0 0 8px;padding:0;vertical-align:text-top}.updates-table tbody td.check-column,.widefat tbody th.check-column,.widefat tfoot td.check-column,.widefat thead td.check-column{padding:11px 0 0 3px}
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.kev-awesome-motive {
+  padding: 2px;
+}
+.kev-awesome-motive h2 {
+  text-transform: uppercase;
+}
+.kev-awesome-motive input[type=text] {
+  font-family: Gilbert, sans-serif;
+  font-size: 64px;
+  color: inherit;
+  background: inherit;
+  border: 0;
+}
+.kev-awesome-motive .kev-heading {
+  text-align: center;
+}
+.kev-awesome-motive .wp-list-table.striped > tbody > :nth-child(odd) {
+  background-color: #f6f7f7;
+}
+.kev-awesome-motive .wp-list-table.col-one-hide td:nth-child(1) {
+  display: none;
+}
+.kev-awesome-motive .wp-list-table.col-two-hide td:nth-child(2) {
+  display: none;
+}
+.kev-awesome-motive .wp-list-table.col-three-hide td:nth-child(3) {
+  display: none;
+}
+.kev-awesome-motive .wp-list-table.col-four-hide td:nth-child(4) {
+  display: none;
+}
+.kev-awesome-motive .wp-list-table.col-five-hide td:nth-child(5) {
+  display: none;
+}
+
+.widefat {
+  background: #fff;
+  border: 1px solid #c3c4c7;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border-spacing: 0;
+  width: 100%;
+  clear: both;
+  margin: 0;
+}
+.widefat * {
+  word-wrap: break-word;
+}
+.widefat a,
+.widefat button.button-link {
+  text-decoration: none;
+}
+.widefat td,
+.widefat th {
+  padding: 8px 10px;
+}
+.widefat thead,
+.widefat tfoot {
+  font-weight: 500;
+}
+.widefat thead th,
+.widefat thead td {
+  border-bottom: 1px solid #c3c4c7;
+}
+.widefat tfoot th,
+.widefat tfoot td {
+  border-top: 1px solid #c3c4c7;
+  border-bottom: none;
+}
+.widefat .no-items td {
+  border-bottom-width: 0;
+}
+.widefat td {
+  vertical-align: top;
+}
+.widefat td,
+.widefat td p,
+.widefat td ol,
+.widefat td ul {
+  font-size: 13px;
+  line-height: 1.5em;
+}
+.widefat th,
+.widefat thead td,
+.widefat tfoot td {
+  text-align: left;
+  line-height: 1.3em;
+  font-size: 14px;
+}
+.widefat .check-column {
+  width: 2.2em;
+  padding: 6px 0 25px;
+  vertical-align: top;
+}
+.widefat tbody th.check-column {
+  padding: 9px 0 22px;
+}
+.widefat thead td.check-column,
+.widefat tfoot td.check-column {
+  padding-top: 4px;
+  vertical-align: middle;
+}
+
+.widefat th input,
+.updates-table td input,
+.widefat thead td input,
+.widefat tfoot td input {
+  margin: 0 0 0 8px;
+  padding: 0;
+  vertical-align: text-top;
+}
+
+.widefat thead td.check-column,
+.widefat tbody th.check-column,
+.updates-table tbody td.check-column,
+.widefat tfoot td.check-column {
+  padding: 11px 0 0 3px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
